@@ -1,0 +1,25 @@
+:host {
+    border-top: solid 10px #008ee0;
+    background-color: #1e2024;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    color: white;
+}
+
+#legal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: grey;
+}
+

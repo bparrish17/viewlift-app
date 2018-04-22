@@ -1,0 +1,13 @@
+:host {
+    background-color: #1e2024;
+}
+
+#category {
+    line-height: 0.6
+}
+
+#category-header > span {
+    font-weight: 600;
+    font-size: 24px;
+    color: #018de0;
+}
