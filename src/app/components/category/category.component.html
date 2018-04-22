@@ -1,5 +1,4 @@
-<div id="category-header">
-  <span>CATEGORY</span>
-  <hr />
+<div id="category-header">CATEGORY</div>
+<div id="film-scroller">
+  <app-film *ngFor="let film of films" [film]="film"></app-film>
 </div>
-<div id="film-scroller"></div>

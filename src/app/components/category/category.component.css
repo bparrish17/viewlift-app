@@ -2,11 +2,13 @@
     background-color: #1e2024;
 }
 
-#category {
-    line-height: 0.6
-}
-
-#category-header > span {
+#category-header {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px grey;
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 0.6;
     font-weight: 600;
     font-size: 24px;
     color: #018de0;
